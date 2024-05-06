@@ -1,0 +1,13 @@
+﻿<Window ShowInTaskbar="False" x:Class="DataBase.MainWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBase"
+        mc:Ignorable="d"
+        Title="MainWindows" Height="450" Width="900">
+	
+    <Grid>
+		<Frame Source="MainPage.xaml" Margin="3" BorderThickness="2" NavigationUIVisibility="Hidden"></Frame>
+	</Grid>
+</Window>
